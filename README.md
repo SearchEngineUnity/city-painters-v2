@@ -2,7 +2,7 @@
 
 ## Links to the deployed frontend and backend
 
-* [Sanity (CMS) Studio](https://tep.sanity.studio/desk)
+* [Sanity (CMS) Studio]()
 
 ## How to install and run the project
 
@@ -14,8 +14,8 @@
 
 1. Git clone project
 2. Install Lerna `npm install -g lerna@6.6.2` 
-3. Install Sanity cli `npm install -g @sanity/cli@3.55.0`
-4. Install Gatsby cli `npm install -g gatsby-cli@5.6.0`
+3. Install Sanity cli `npm install -g @sanity/cli`
+4. Install Gatsby cli `npm install -g gatsby-cli@`
 5. Run `npm install` from the root folder of the repo. This should install npms in both packages (studio + web).
 
 ### Run Sanity CMS locally
@@ -42,14 +42,9 @@
 
 Please use node 18.13.0 and npm 8.19.3.
 
-This is a lerna mono repo, to install for all packages run `npm install --legacy-peer-deps` from the root folder. Refer to the **Script Overview** section below for details.
+This is a lerna mono repo, to install for all packages run `npm install` from the root folder. Refer to the **Script Overview** section below for details.
 
 This project is set up with eslint and prettier following Airbnb template + custom rules. The code will be auto linted and fixed precommit (set up via husky + lint-staged). This [ref for precommit linting](https://laurieontech.com/posts/husky/) is used for set up. The difference is that we have used a .lintstagedrc file for the lint-staged configuration instead of putting the instructions directly in the package.json file. The prettier command is not included as it is integrated in to eslint already.
-
-### Important Package Versions
-
-* "sanity": "^3.0.0"
-* "gatsby": "^5.5.0"
 
 ## Scripts Overview
 
@@ -79,9 +74,9 @@ lerna add a --scope=b
 lerna add a --scope=b --scope=c --scope=d  
 ```
 
-Here’s a concrete example installing **dotenv** as a dependency to the **@tep/web** package:
+Here’s a concrete example installing **dotenv** as a dependency to the **@cp/web** package:
 ```
-lerna add dotenv --scope=@tep/web  
+lerna add dotenv --scope=@cp/web  
 ```
 
 Run `npm run clean` should you accidentally installed a dependency inside the package itself then rerun `npm install --legacy-peer-deps` from the root folder.

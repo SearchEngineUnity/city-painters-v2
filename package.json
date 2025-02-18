@@ -1,5 +1,5 @@
 {
-  "name": "site-builder-v2",
+  "name": "city-painters-v2",
   "private": true,
   "devDependencies": {
     "eslint": "^8.33.0",
