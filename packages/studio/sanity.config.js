@@ -12,8 +12,8 @@ import { GatsbyPreviewAction } from './actions';
 
 export default defineConfig({
   name: 'default',
-  title: 'tep',
-  projectId: 'ed2r2yff',
+  title: 'The City Painters',
+  projectId: '5tn8r2vf',
   dataset: 'production',
   plugins: [
     deskTool({
@@ -23,19 +23,19 @@ export default defineConfig({
     dashboardTool({
       widgets: [
         projectInfoWidget(),
-        netlifyWidget({
-          title: 'My Netlify deploys',
-          sites: [
-            {
-              title: 'TEP',
-              apiId: '9ead4fb3-14ea-4e69-919c-510ced2c9c76',
-              buildHookId: '65805e087a739857001d30d0',
-              name: 'tep',
-            },
-          ],
-          layout: { width: 'small', height: 'small' },
-        }),
-        sanityLimitWidget({ projectId: 'ed2r2yff' }),
+        // netlifyWidget({
+        //   title: 'My Netlify deploys',
+        //   sites: [
+        //     {
+        //       title: 'CP',
+        //       apiId: '9ead4fb3-14ea-4e69-919c-510ced2c9c76',
+        //       buildHookId: '65805e087a739857001d30d0',
+        //       name: 'cp',
+        //     },
+        //   ],
+        //   layout: { width: 'small', height: 'small' },
+        // }),
+        sanityLimitWidget({ projectId: '5tn8r2vf' }),
         projectUsersWidget(),
       ],
     }),
