@@ -8,7 +8,7 @@ import { colorInput } from '@sanity/color-input';
 import { sanityLimitWidget } from './schemas/components/widgets/sanityLimitWidget';
 import { schemaTypes } from './schemas';
 import deskStructure from './deskStructure';
-import { GatsbyPreviewAction } from './actions';
+// import { GatsbyPreviewAction } from './actions';
 
 export default defineConfig({
   name: 'default',
@@ -83,13 +83,13 @@ export default defineConfig({
       ) {
         return prev.filter(({ action }) => !['unpublish', 'delete', 'duplicate'].includes(action));
       }
-      if (
-        schemaType === 'page' ||
-        schemaType === 'soloGuidePage' ||
-        schemaType === 'flexListingPage'
-      ) {
-        return [GatsbyPreviewAction, ...prev];
-      }
+      // if (
+      //   schemaType === 'page' ||
+      //   schemaType === 'soloGuidePage' ||
+      //   schemaType === 'flexListingPage'
+      // ) {
+      //   return [GatsbyPreviewAction, ...prev];
+      // }
       return prev;
     },
   },
