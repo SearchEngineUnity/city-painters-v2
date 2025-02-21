@@ -1,4 +1,4 @@
-# TEP
+# CP
 
 ## Links to the deployed frontend and backend
 
