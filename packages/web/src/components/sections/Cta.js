@@ -78,7 +78,7 @@ function Cta({ id }) {
             component="a"
             paragraph
             variant="h3"
-            href="tel:647-580-9479"
+            href="tel:647-237-6900"
             sx={{
               textAlign: 'center',
               display: 'block',
@@ -86,7 +86,7 @@ function Cta({ id }) {
               textDecoration: 'none',
             }}
           >
-            Call us at 647-580-9479
+            Call us at 647-237-6900
           </Typography>
           <ThemeProvider theme={(theme) => btnTheme(theme)}>
             <Box sx={{ textAlign: 'center' }}>
