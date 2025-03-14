@@ -34,6 +34,9 @@ function ListingPagination({ currentpage, numPages, slug, color }) {
               ? `1px solid rgba(${color.rgb.r}, ${color.rgb.g}, ${color.rgb.b}, 0.23)`
               : '1px solid rgba(0, 0, 0, 0.23)',
           },
+          ellipsis: {
+            border: 'none',
+          },
         },
       },
     },
