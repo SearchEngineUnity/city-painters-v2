@@ -29,7 +29,7 @@ function TileImageBackgroundTitle({ image, link, title }) {
         >
           <Box
             sx={{
-              border: '#406CCB solid 2px',
+              border: '#619638 solid 2px',
               backgroundColor: 'white',
               fontSize: 'body1.fontSize',
               lineHeight: 'normal',
