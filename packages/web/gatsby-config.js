@@ -10,7 +10,7 @@ const previewEnabled = (process.env.GATSBY_IS_PREVIEW || 'false').toLowerCase() 
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://torontoepoxy.com/', // update to new netlify URL
+  URL: NETLIFY_SITE_URL = 'https://thecitypainters.com/', // update to new netlify URL
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env;
