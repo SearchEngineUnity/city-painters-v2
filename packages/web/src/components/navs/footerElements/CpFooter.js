@@ -128,48 +128,48 @@ function CpFooter() {
               </Grid>
             </Grid>
             <Grid xs={12} sm={6} md={3} lg={3}>
-              <MenuHeading component="p">PAINTING SERVICES</MenuHeading>
+              <MenuHeading component="p">SERVICES</MenuHeading>
               <Box component="ul" sx={{ listStyleType: 'none', paddingLeft: 0 }}>
                 <MenuItem>
-                  <MenuLink to="#">Home Interior Painting</MenuLink>
+                  <MenuLink to="/commercial-painting-services">Commercial Painting</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="#">Home Exterior Painting</MenuLink>
+                  <MenuLink to="/industrial-painting-services">Industrial Painting</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="#">Condo Painting</MenuLink>
+                  <MenuLink to="/facility-painting">Facility Painting</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="#">Apartment Painting</MenuLink>
+                  <MenuLink to="/residential-painting-services">Residential Painting</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="#">Commercial Painting</MenuLink>
+                  <MenuLink to="/interior-painting">House Interior Painting</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="#">Epoxy Flooring Solutions</MenuLink>
+                  <MenuLink to="/exterior-painting">House Exterior Painting</MenuLink>
+                </MenuItem>
+                <MenuItem>
+                  <MenuLink to="/condo-painters-toronto">Condo Painting</MenuLink>
+                </MenuItem>
+                <MenuItem>
+                  <MenuLink to="/epoxy-flooring">Epoxy Flooring</MenuLink>
                 </MenuItem>
               </Box>
             </Grid>
             <Grid xs={12} sm={6} md={3} lg={3}>
-              <MenuHeading component="p">RESOURCE CENTER</MenuHeading>
+              <MenuHeading component="p">IMPORTANT LINKS</MenuHeading>
               <Box component="ul" sx={{ listStyleType: 'none', paddingLeft: 0 }}>
                 <MenuItem>
-                  <MenuLink to="#">Best Primer for Cabinets</MenuLink>
+                  <MenuLink to="/">Home</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="#">Best Ceiling Paint Sprayer</MenuLink>
+                  <MenuLink to="/resources">Learning Center</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="#">Best Trim Paint Brush</MenuLink>
+                  <MenuLink to="/locations">Service Areas</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="#">Best Cabinets Paint Brush</MenuLink>
-                </MenuItem>
-                <MenuItem>
-                  <MenuLink to="#">Cost to Paint Cabinets</MenuLink>
-                </MenuItem>
-                <MenuItem>
-                  <MenuLink to="#">All Resources</MenuLink>
+                  <MenuLink to="/contact-us">Contact Us</MenuLink>
                 </MenuItem>
               </Box>
             </Grid>
