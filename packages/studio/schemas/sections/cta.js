@@ -16,6 +16,12 @@ export default {
         'Add ID to the selected string. Please only use alphanumeric characters and hypen and do not start the string with a number.',
     },
     {
+      name: 'title',
+      title: 'CTA Title',
+      type: 'string',
+      initialValue: 'CONTACT US TODAY FOR A FREE PAINTING QUOTE',
+    },
+    {
       name: 'cta',
       title: 'CTA',
       type: 'string',
