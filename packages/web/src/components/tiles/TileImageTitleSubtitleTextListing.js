@@ -24,7 +24,7 @@ function TileImageTitleSubtitleTextListing({ image, alt, link, title, text, subt
         <Box sx={{ display: 'flex' }}>
           <Box
             sx={{
-              height: { lg: '236px', md: '248px', xs: '0px' },
+              height: 'auto',
               width: { lg: '379px', md: '248px', xs: '0px' },
               flexGrow: 1,
               flexShrink: 0,
@@ -34,9 +34,12 @@ function TileImageTitleSubtitleTextListing({ image, alt, link, title, text, subt
               image={imageData}
               alt={alt || ''}
               style={{ width: '100%', height: '100%' }}
+              imgStyle={{
+                objectFit: 'cover',
+              }}
             />
           </Box>
-          <Box sx={{ paddingLeft: { md: 3, sm: 0 } }}>
+          <Box sx={link ? { padding: { md: 3, xs: 2 } } : { paddingLeft: { md: 3, sm: 0 } }}>
             <Typography gutterBottom variant="h3" component="p">
               {title}
             </Typography>
