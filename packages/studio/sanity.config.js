@@ -23,18 +23,18 @@ export default defineConfig({
     dashboardTool({
       widgets: [
         projectInfoWidget(),
-        // netlifyWidget({
-        //   title: 'My Netlify deploys',
-        //   sites: [
-        //     {
-        //       title: 'CP',
-        //       apiId: '9ead4fb3-14ea-4e69-919c-510ced2c9c76',
-        //       buildHookId: '65805e087a739857001d30d0',
-        //       name: 'cp',
-        //     },
-        //   ],
-        //   layout: { width: 'small', height: 'small' },
-        // }),
+        netlifyWidget({
+          title: 'My Netlify deploys',
+          sites: [
+            {
+              title: 'CP',
+              apiId: 'b4d19d9d-832a-48e0-be6a-58c9bda44f2b',
+              buildHookId: '67ead2529a0aed009ea39474',
+              name: 'cp',
+            },
+          ],
+          layout: { width: 'small', height: 'small' },
+        }),
         sanityLimitWidget({ projectId: '5tn8r2vf' }),
         projectUsersWidget(),
       ],
