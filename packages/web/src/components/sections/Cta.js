@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Button } from 'gatsby-theme-material-ui';
 
-function Cta({ id }) {
+function Cta({ id, title }) {
   const btnTheme = (theme) =>
     createTheme({
       palette: {
@@ -72,7 +72,7 @@ function Cta({ id }) {
               textAlign: 'center',
             }}
           >
-            CONTACT US TODAY FOR A FREE QUOTE
+            {title ? title.toUpperCase() : 'CONTACT US TODAY FOR A FREE PAINTING QUOTE'}
           </Typography>
           <Typography
             component="a"
