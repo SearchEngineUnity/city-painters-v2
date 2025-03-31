@@ -72,7 +72,7 @@ function Cta({ id }) {
               textAlign: 'center',
             }}
           >
-            CONTACT US TODAY FOR A FREE EPOXY QUOTE
+            CONTACT US TODAY FOR A FREE QUOTE
           </Typography>
           <Typography
             component="a"
