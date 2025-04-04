@@ -95,7 +95,7 @@ function CpFooter() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={fb} alt="facebook" width="48" height="48" loading="lazy" />
+                    <img src={fb} alt="facebook" width="40" height="40" loading="lazy" />
                   </a>
                 </Grid>
                 <Grid>
@@ -104,7 +104,7 @@ function CpFooter() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={insta} alt="instagram" width="48" height="48" loading="lazy" />
+                    <img src={insta} alt="instagram" width="40" height="40" loading="lazy" />
                   </a>
                 </Grid>
                 <Grid>
@@ -113,7 +113,7 @@ function CpFooter() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={homeStars} alt="homestars" width="48" height="48" loading="lazy" />
+                    <img src={homeStars} alt="homestars" width="40" height="40" loading="lazy" />
                   </a>
                 </Grid>
                 <Grid>
@@ -122,7 +122,7 @@ function CpFooter() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={linkedIn} alt="linkedin" width="48" height="48" loading="lazy" />
+                    <img src={linkedIn} alt="linkedin" width="40" height="40" loading="lazy" />
                   </a>
                 </Grid>
               </Grid>
@@ -157,19 +157,22 @@ function CpFooter() {
               </Box>
             </Grid>
             <Grid xs={12} sm={6} md={3} lg={3}>
-              <MenuHeading component="p">IMPORTANT LINKS</MenuHeading>
+              <MenuHeading component="p">HELPFUL LINKS</MenuHeading>
               <Box component="ul" sx={{ listStyleType: 'none', paddingLeft: 0 }}>
                 <MenuItem>
                   <MenuLink to="/">Home</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="/resources">Learning Center</MenuLink>
+                  <MenuLink to="/contact-us">Contact Us</MenuLink>
                 </MenuItem>
                 <MenuItem>
                   <MenuLink to="/locations">Service Areas</MenuLink>
                 </MenuItem>
                 <MenuItem>
-                  <MenuLink to="/contact-us">Contact Us</MenuLink>
+                  <MenuLink to="/resources">Learning Center</MenuLink>
+                </MenuItem>
+                <MenuItem>
+                  <MenuLink to="https://torontoepoxy.com/">Toronto Epoxy Partner</MenuLink>
                 </MenuItem>
               </Box>
             </Grid>
