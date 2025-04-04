@@ -30,7 +30,7 @@ export default defineConfig({
               title: 'CP',
               apiId: 'b4d19d9d-832a-48e0-be6a-58c9bda44f2b',
               buildHookId: '67ead2529a0aed009ea39474',
-              name: 'cp',
+              name: 'thecitypainters',
             },
           ],
           layout: { width: 'small', height: 'small' },
