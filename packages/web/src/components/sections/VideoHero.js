@@ -37,10 +37,11 @@ function VideoHero({
         width: '100%',
         position: 'relative',
         zIndex: '0',
-        minHeight: { lg: '700px', md: '500px', sm: '400px', xs: '350px' },
+        minHeight: { lg: '450px', md: '400px', sm: '350px', xs: '300px' },
+        // minHeight: { lg: '700px', md: '500px', sm: '400px', xs: '350px' },
         display: 'flex',
         flexDirection: 'stack',
-        alignItems: 'flex-end',
+        alignItems: 'center',
       }}
     >
       <Box
@@ -107,11 +108,14 @@ function VideoHero({
               textAlign={headingAlignment}
               sx={{
                 color: headingColor,
-                fontSize: { xl: '48px', md: '36px', xs: '24px' },
+                fontSize: { xl: '48px', md: '42px', xs: '28px' },
                 lineHeight: 'normal',
                 fontWeight: 600,
                 py: '0.25em',
                 textTransform: 'uppercase',
+                maxWidth: { xs: '100%', sm: '80%', md: '70%' },
+                marginLeft: 'auto',
+                marginRight: 'auto',
               }}
             >
               {heading}
