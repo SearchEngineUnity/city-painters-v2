@@ -16,7 +16,7 @@ function TileImageBackgroundTitle({ image, link, title }) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundImage: `url(${bgImage})`,
+            backgroundImage: `url(${bgImage}?fm=webp)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center center',
             backgroundRepeat: 'no-repeat',

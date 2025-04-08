@@ -22,7 +22,7 @@ function VideoHero({
   const imageData = getGatsbyImageData(image, {}, sanityConfig);
   const headingColor = determineColor(designSettings?.heading?.color) || 'inherit';
   const backgroundColor = determineColor(designSettings?.background?.color) || 'primary.main';
-  const backgroundImage = designSettings?.bgImage?.asset?.url;
+  const backgroundImage = `${designSettings?.bgImage?.asset?.url}?fm=webp`;
   const desktopPadding = designSettings?.outerPadding?.desktopPadding;
   const tabletPadding = designSettings?.outerPadding?.tabletPadding;
   const tabletMobilePadding = designSettings?.outerPadding?.tabletMobilePadding;
